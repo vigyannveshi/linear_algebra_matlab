@@ -4,8 +4,8 @@ rank(smallmat);
 det(smallmat);
 
 % reduced-rank matrix
-M1=randn(11,4);
-M2=randn(4,10);
+M1=randn(32,4);
+M2=randn(4,30);
 
 bigMat=M1*M2;
 size(bigMat)
